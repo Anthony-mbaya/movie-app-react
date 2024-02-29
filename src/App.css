@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.row {
+  border: 2px solid red;
+}
+.card {
+  margin-bottom: 2em;
+  height: 450px;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  opacity: 0.7;
+}
+.card > img {
+  height: 300px;
+}
+.card-body {
+  padding: 10px;
+}
