@@ -6,9 +6,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 //a7ddb576
+//https://www.omdbapi.com/?i=tt3896198&apikey=a7ddb576
 
-const API_URL = "http://www.omdbapi.com?apikey=a7ddb576";
-
+//const API_URL = "http://www.omdbapi.com?apikey=a7ddb576";
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=a7ddb576";
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchedTitle, setSearchedTitle] = useState("");
