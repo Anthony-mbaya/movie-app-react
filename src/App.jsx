@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaSearch, FaHandPointUp, FaHeart } from "react-icons/fa";
 import { Movies } from "./Movies";
 
-const MOVIE_URL = "http://www.omdbapi.com?apikey=a7ddb576";
+const MOVIE_URL = "https://www.omdbapi.com?apikey=a7ddb576";
 
 export const App = () => {
   const [searched, setSearched] = useState("");
