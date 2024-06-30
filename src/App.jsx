@@ -37,7 +37,7 @@ export const App = () => {
         <div className="w-fit sm:w-full mx-auto flex justify-between my-4 rounded-3xl shadow-2xl shadow-black bg-white">
           <input
             type="text"
-            className="w-fit sm:w-full text-[1.2em] px-6 py-3 outline-green-400 outline-1 rounded-l-3xl text-black font-bold bg-transparent focus:bg-slate-200"
+            className="w-fit sm:w-full text-[1.2em] px-3 sm:px-6 py-2 sm:py-3 outline-green-400 outline-1 rounded-l-3xl text-black font-bold bg-transparent focus:bg-slate-200"
             placeholder="Enter movie title"
             value={searched}
             onChange={(e) => setSearched(e.target.value)}
@@ -45,7 +45,7 @@ export const App = () => {
           <span className="w-fit bg-slate-500 rounded-r-2xl hover:bg-green-500 px-4 flex justify-center items-center shadow-2xl shadow-black">
             <FaSearch
               onClick={() => movie_search(searched)}
-              size={20}
+              size={18}
               className="text-blue-950"
             />{" "}
           </span>
