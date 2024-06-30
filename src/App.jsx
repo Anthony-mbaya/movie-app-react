@@ -19,12 +19,12 @@ export const App = () => {
 
   return (
     <div className="w-fit bg-green-300 mx-auto">
-      <span className="fixed top-4 right-4 cursor-pointer p-2 rounded-2xl bg-[rgb(237,26,0)] hover:bg-blue-950">
+      <span className="fixed top-4 sm:top-8 right-4 sm:right-14 cursor-pointer p-2 rounded-2xl bg-[rgb(237,26,0)] hover:bg-blue-950">
         <a href="#top">
           <FaHandPointUp title="Go Up" size={14} className="text-white" />
         </a>
       </span>
-      <span className="fixed top-4 right-14 cursor-pointer p-2 rounded-2xl bg-[rgb(237,26,0)] hover:bg-blue-950">
+      <span className="fixed top-4 sm:top-8 sm:right-24 right-14 cursor-pointer p-2 rounded-2xl bg-[rgb(237,26,0)] hover:bg-blue-950">
         <a href="#top">
           <FaHeart title="Favourites" size={14} className="text-white" />
         </a>
