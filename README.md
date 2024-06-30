@@ -1,0 +1,1 @@
+# Crux MovieBaz displays all the movies by search
